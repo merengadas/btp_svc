@@ -1,0 +1,21 @@
+{
+  "xsappname": "prodwb-auth",
+  "tenant-mode": "dedicated",
+  "description": "laura",
+  "scopes": [
+    {
+      "name": "uaa.user",
+      "description": "UAA"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "Token_Exchange",
+      "description": "UAA",
+      "scope-references": [
+        "user.uaa"
+      ]
+    }
+  ]
+}
